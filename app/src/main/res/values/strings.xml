@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">my Second App</string>
+    <string name="hello">HELLO........</string>
+    <string name="footer">FOOTER.!</string>
+    <string name="a1">1</string>
+    <string name="a2">2</string>
+    <string name="a3">3</string>
+    <string name="a4">4</string>
+    <string name="a5">5</string>
+    <string name="a6">6</string>
+    <string name="a7">7</string>
+    <string name="a8">8</string>
+    <string name="a9">9</string>
+
+
+
+</resources>
