@@ -11,6 +11,9 @@
     <string name="a7">7</string>
     <string name="a8">8</string>
     <string name="a9">9</string>
-
+    <string name="about">   ABOUT</string>
+    <string name="aboutme">ABOUT ME</string>
+    <string name="home">HOME</string>
+    <string name="reminder">REMINDER</string>
 
 </resources>

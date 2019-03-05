@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:weightSum="7"
-    android:background="@color/DarkBlue"
+    android:background="@color/DarkGray"
     android:orientation="vertical"
     tools:context=".MainActivity">
 
@@ -138,14 +138,15 @@
         android:layout_weight="1"
         ></LinearLayout>
 
-    <TextView
+    <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_weight="1"
         android:textSize="@dimen/textSize"
-        android:background="@color/CornflowerBlue"
+        android:background="@color/BlueViolet"
         android:gravity="center"
-        android:text="@string/footer"
+        android:text="@string/about"
+        android:layout_margin="15dp"
         android:textStyle="bold"
         android:textColor="@color/Red" />
 
