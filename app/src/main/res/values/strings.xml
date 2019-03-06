@@ -15,5 +15,7 @@
     <string name="aboutme">ABOUT ME</string>
     <string name="home">HOME</string>
     <string name="reminder">REMINDER</string>
+    <string name="done">DONE</string>
+    <string name="remind">Remind Me</string>
 
 </resources>

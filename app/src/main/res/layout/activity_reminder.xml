@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="10"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    tools:context=".activity_reminder">
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_weight="5"
+    android:layout_height="wrap_content">
+
+
+    <EditText
+        android:id="@+id/remindme"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/remind"
+        />
+
+    <Spinner
+        android:id="@+id/dates"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/remindme"
+        android:layout_alignParentLeft="true"
+        android:layout_toLeftOf="@+id/times" />
+    <Spinner
+        android:id="@+id/times"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/remindme"
+
+        >
+
+    </Spinner>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/times"
+        android:text="@string/done"
+        android:background="@color/green"
+        android:textStyle="bold"
+        android:textSize="@dimen/textSize"
+        android:paddingLeft="@dimen/textSize"
+        android:paddingRight="@dimen/textSize"
+        android:layout_margin="10dp"
+
+        android:layout_alignParentRight="true"/>
+
+    
+
+
+</RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:padding="@dimen/textSize"
+        android:layout_weight="5">
+
+        <Button
+            android:id="@+id/btnhome1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:text="@string/home"
+            android:textSize="@dimen/textSize"
+            android:background="@color/green"
+            android:paddingLeft="@dimen/textSize"
+            android:paddingRight="@dimen/textSize"
+
+            />
+
+        <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+        android:text="@string/home"
+        android:textSize="@dimen/textSize"
+        android:background="@color/green"
+        android:paddingLeft="@dimen/textSize"
+        android:paddingRight="@dimen/textSize"
+
+        />
+
+    </RelativeLayout>
+
+
+</LinearLayout>
